@@ -1271,6 +1271,7 @@ asmlinkage long sys_old_mmap(struct mmap_arg_struct __user *arg);
  * not implemented -- see kernel/sys_ni.c
  */
 asmlinkage long sys_ni_syscall(void);
+asmlinkage long sys_doom_print(char __user *msg);
 
 #endif /* CONFIG_ARCH_HAS_SYSCALL_WRAPPER */
 
